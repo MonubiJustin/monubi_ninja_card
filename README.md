@@ -22,3 +22,19 @@ Make sure you have Flutter installed on your machine. You can follow the install
 1. Clone the repository:
    ```bash
    git clone https://github.com/MonubiJustin/Flutter_Projects.git
+2. Navigate to the project directory:
+   ```bash
+   cd Flutter_Projects
+3. Get the dependencies:
+   ```bash
+   flutter pub get
+   
+### Running the app
+
+To run the app, use the following command:
+flutter run
+
+### Project structure
+
+- lib/main.dart => the main entry point for the app
+- assets/two.jpg => Profile picture displayed on the ID card. (Make sure to include this image in your pubspec.yaml file under assets.)
